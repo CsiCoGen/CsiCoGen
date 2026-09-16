@@ -1,0 +1,100 @@
+CsiCoGen Noncommercial Research License
+Version 1.0, 15 September 2026
+
+Copyright (c) 2026 CsiCoGen contributors. All rights reserved.
+
+1. Scope
+
+This license applies to the original CsiCoGen source code, documentation,
+configuration files, pretrained model weights, codebooks, and normalization
+statistics made available under this license (the "Materials"). It covers
+both CsiCoGen and CsiCoGen-Lite and the sampling implementations supplied with
+them. The "Licensors" are the copyright holders of these original Materials.
+
+"Model Assets" means the supplied model weights, codebooks, and normalization
+statistics, including copies and modified versions. Modified model weights
+include weights obtained by adapting, fine-tuning, combining, or converting
+the supplied weights.
+
+Third-party materials, including COST2100 data and third-party software, are
+excluded from this license. Their original licenses and notices continue to
+apply. This license grants rights only to the extent the Licensors are
+entitled to grant them.
+
+2. Noncommercial research permission
+
+Subject to these terms, the Licensors grant you a limited, worldwide,
+non-exclusive, royalty-free license to use, reproduce, and modify the
+Materials solely for Noncommercial Research.
+
+"Noncommercial Research" means scientific or academic investigation intended
+to advance knowledge, rather than to obtain commercial advantage or monetary
+compensation from the use of the Materials. Ordinary academic employment,
+public or charitable research funding, and publication of research findings
+do not, by themselves, make such research commercial.
+
+This permission includes reproducing experiments, evaluating the models, and
+making private modifications for Noncommercial Research. Redistribution is
+subject to Section 3.
+
+3. Redistribution and research publications
+
+You may redistribute the source code, documentation, and configuration files,
+with or without modifications, solely for Noncommercial Research, provided
+that you:
+
+  a. include this complete license and all applicable copyright and
+     third-party notices;
+  b. distribute the original CsiCoGen portions and your modifications to
+     those portions under this same license;
+  c. identify modified files and describe your changes; and
+  d. provide the corresponding source code with any executable distribution.
+
+Redistribution of Model Assets requires prior written authorization from the
+Licensors. Without that authorization, you may not publish, mirror, host for
+download, sell, sublicense, or otherwise provide the original or modified
+Model Assets to another person or organization. Private copies for your own
+permitted research are allowed.
+
+You may publish research findings and evaluation results that do not include
+Model Assets. Publications using the Materials must acknowledge CsiCoGen and
+cite the accompanying article using the citation supplied with the project.
+
+4. Commercial use requires a separate license
+
+Any commercial use of the Materials or their modifications requires prior
+written authorization from the Licensors. Commercial use includes use in or
+for products, commercial services, paid consulting, production deployments
+for a business, and internal research or development directed at commercial
+products or services. Providing a product or service without an immediate
+charge does not make an otherwise commercial use noncommercial.
+
+The same requirement applies to commercial use of modified Model Assets.
+
+5. Ownership and reserved rights
+
+The Licensors retain ownership of their Materials. All rights not expressly
+granted by this license are reserved. You may not use the Licensors' names,
+trademarks, or project names to imply endorsement of your work without prior
+written authorization.
+
+6. Termination
+
+The permissions granted by this license terminate automatically if you
+violate its terms. Upon termination, you must stop using and distributing the
+Materials and their modifications. Any further use requires separate written
+authorization from the Licensors.
+
+7. Disclaimer of warranty and limitation of liability
+
+THE MATERIALS ARE PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR
+PURPOSE, AND NON-INFRINGEMENT. TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE
+LAW, THE LICENSORS ARE NOT LIABLE FOR ANY CLAIM, LOSS, OR DAMAGES ARISING FROM
+THE MATERIALS OR THEIR USE, WHETHER IN CONTRACT, TORT, OR OTHERWISE.
+
+8. Separate permissions
+
+Commercial licensing and Model Asset redistribution requests may be directed
+to chengyx01@pcl.ac.cn. Permission must be granted in writing by the relevant
+rights holders before the proposed use or redistribution.

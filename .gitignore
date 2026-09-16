@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+*.log
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+outputs/
+runs/
+logs/
+checkpoints/
+data/
+*.ckpt
+*.pt
+*.pth
+.env
+.venv/
+venv/

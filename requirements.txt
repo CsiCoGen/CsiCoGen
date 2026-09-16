@@ -1,0 +1,5 @@
+torch==2.8.0
+numpy==2.0.1
+scipy==1.13.1
+PyYAML>=6.0,<7
+huggingface_hub>=0.29,<2

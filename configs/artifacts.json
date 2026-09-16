@@ -1,0 +1,237 @@
+{
+  "schema_version": 1,
+  "model_repo": "CsiCoGen/CsiCoGen",
+  "dataset_repo": "CsiCoGen/COST2100",
+  "model_revision": "4cd2bd450afaf8a8598d500ffdaa50f59cad27b4",
+  "dataset_revision": "c2607f80f36f61fec1e8495e2fb11e4ccc4da7de",
+  "checkpoints": {
+    "CsiCoGen-indoor-T100": {
+      "family": "CsiCoGen",
+      "scene": "indoor",
+      "timesteps": 100,
+      "parameters": 800162,
+      "files": {
+        "csicogen.ckpt": {
+          "path": "CsiCoGen/indoor/T100/csicogen.ckpt",
+          "sha256": "ca1848477a91eb162bf5d06c226c3b2c10a1d1fe5ce5ee6cc180c21145cb5edd"
+        },
+        "normalization.npz": {
+          "path": "CsiCoGen/indoor/T100/normalization.npz",
+          "sha256": "ca0b2b587d21c55e4580b753e8cfcea79f39a68edad82395b9f6de5d11d04c48"
+        },
+        "config.yaml": {
+          "path": "CsiCoGen/indoor/T100/config.yaml",
+          "sha256": "be6eefa691e6f01f84664921b2ecc330b1250449e5c02e2c527796a00ba8f85b"
+        }
+      },
+      "article_reference": {
+        "nmse_db": -28.58,
+        "rho": 0.9964
+      }
+    },
+    "CsiCoGen-indoor-T200": {
+      "family": "CsiCoGen",
+      "scene": "indoor",
+      "timesteps": 200,
+      "parameters": 800162,
+      "files": {
+        "csicogen.ckpt": {
+          "path": "CsiCoGen/indoor/T200/csicogen.ckpt",
+          "sha256": "a8e220bb260ad9e5bc9e9103d8481052088c60e208fb2e850b3320d31e2e183a"
+        },
+        "normalization.npz": {
+          "path": "CsiCoGen/indoor/T200/normalization.npz",
+          "sha256": "ca0b2b587d21c55e4580b753e8cfcea79f39a68edad82395b9f6de5d11d04c48"
+        },
+        "config.yaml": {
+          "path": "CsiCoGen/indoor/T200/config.yaml",
+          "sha256": "8e720698bcf97ca7e2fb68b3e1d2213ec7b1a481d22f8628efacb5efaeb5bdcb"
+        }
+      },
+      "article_reference": {
+        "nmse_db": -30.72,
+        "rho": 0.9967
+      }
+    },
+    "CsiCoGen-outdoor-T100": {
+      "family": "CsiCoGen",
+      "scene": "outdoor",
+      "timesteps": 100,
+      "parameters": 800162,
+      "files": {
+        "csicogen.ckpt": {
+          "path": "CsiCoGen/outdoor/T100/csicogen.ckpt",
+          "sha256": "8de2e514411f012fe2488235872cfaf17af24f08f1b80906a3de0a1e0c391b2b"
+        },
+        "normalization.npz": {
+          "path": "CsiCoGen/outdoor/T100/normalization.npz",
+          "sha256": "7e02d1537ae0e4c5525f80119913db718e97f36036d6b494b3c9ce3bb7e31b82"
+        },
+        "config.yaml": {
+          "path": "CsiCoGen/outdoor/T100/config.yaml",
+          "sha256": "386e8e57a94eb5e607cf4d572b68e48fb21b20160cb7e4322d996597c0604e5b"
+        }
+      },
+      "article_reference": {
+        "nmse_db": -13.96,
+        "rho": 0.9597
+      }
+    },
+    "CsiCoGen-outdoor-T200": {
+      "family": "CsiCoGen",
+      "scene": "outdoor",
+      "timesteps": 200,
+      "parameters": 800162,
+      "files": {
+        "csicogen.ckpt": {
+          "path": "CsiCoGen/outdoor/T200/csicogen.ckpt",
+          "sha256": "2fed152a6685c13f04d6f8ea6a231e99c995c4a8e4eee7d67f36f01a15f36a35"
+        },
+        "normalization.npz": {
+          "path": "CsiCoGen/outdoor/T200/normalization.npz",
+          "sha256": "7e02d1537ae0e4c5525f80119913db718e97f36036d6b494b3c9ce3bb7e31b82"
+        },
+        "config.yaml": {
+          "path": "CsiCoGen/outdoor/T200/config.yaml",
+          "sha256": "7e91aaaacc755f5c544393bb5aa3de00bb949a30f5f9ca55e1887f651b750aca"
+        }
+      },
+      "article_reference": {
+        "nmse_db": -20.37,
+        "rho": 0.9748
+      }
+    },
+    "CsiCoGen-Lite-indoor-T100": {
+      "family": "CsiCoGen-Lite",
+      "scene": "indoor",
+      "timesteps": 100,
+      "parameters": 155474,
+      "files": {
+        "csicogen_lite.ckpt": {
+          "path": "CsiCoGen-Lite/indoor/T100/csicogen_lite.ckpt",
+          "sha256": "17779fe203673ab361e4da971e7945b68850e6ce40bb5fe1ef9a788606f499d3"
+        },
+        "normalization.npz": {
+          "path": "CsiCoGen-Lite/indoor/T100/normalization.npz",
+          "sha256": "ca0b2b587d21c55e4580b753e8cfcea79f39a68edad82395b9f6de5d11d04c48"
+        },
+        "config.yaml": {
+          "path": "CsiCoGen-Lite/indoor/T100/config.yaml",
+          "sha256": "31ca07c4e923fa180de523c806b482b67fd2a43e347873fd8281d7f104c05abb"
+        }
+      }
+    },
+    "CsiCoGen-Lite-indoor-T200": {
+      "family": "CsiCoGen-Lite",
+      "scene": "indoor",
+      "timesteps": 200,
+      "parameters": 155474,
+      "files": {
+        "csicogen_lite.ckpt": {
+          "path": "CsiCoGen-Lite/indoor/T200/csicogen_lite.ckpt",
+          "sha256": "b342384da50ad769c4f41f2a5a8c79e346a35db169d926948ab92c8e0f17c84a"
+        },
+        "normalization.npz": {
+          "path": "CsiCoGen-Lite/indoor/T200/normalization.npz",
+          "sha256": "ca0b2b587d21c55e4580b753e8cfcea79f39a68edad82395b9f6de5d11d04c48"
+        },
+        "config.yaml": {
+          "path": "CsiCoGen-Lite/indoor/T200/config.yaml",
+          "sha256": "e206eac80c7dd159d90989bfbe8c458dedc6c6a109ff957db92bbc9f1817f547"
+        }
+      }
+    },
+    "CsiCoGen-Lite-outdoor-T100": {
+      "family": "CsiCoGen-Lite",
+      "scene": "outdoor",
+      "timesteps": 100,
+      "parameters": 155474,
+      "files": {
+        "csicogen_lite.ckpt": {
+          "path": "CsiCoGen-Lite/outdoor/T100/csicogen_lite.ckpt",
+          "sha256": "f680733d874f7238e4ee4f26df5d364e589987dca47586ff83131b135923e33f"
+        },
+        "normalization.npz": {
+          "path": "CsiCoGen-Lite/outdoor/T100/normalization.npz",
+          "sha256": "7e02d1537ae0e4c5525f80119913db718e97f36036d6b494b3c9ce3bb7e31b82"
+        },
+        "config.yaml": {
+          "path": "CsiCoGen-Lite/outdoor/T100/config.yaml",
+          "sha256": "0f054ebf294b382d27d5b4e87a74125c59a55924026b0d833e695187e2ce0563"
+        }
+      }
+    },
+    "CsiCoGen-Lite-outdoor-T200": {
+      "family": "CsiCoGen-Lite",
+      "scene": "outdoor",
+      "timesteps": 200,
+      "parameters": 155474,
+      "files": {
+        "csicogen_lite.ckpt": {
+          "path": "CsiCoGen-Lite/outdoor/T200/csicogen_lite.ckpt",
+          "sha256": "cd5590bac2d7091c2e154569e01b090b0704ab91a42c0d11d96803e926738ca4"
+        },
+        "normalization.npz": {
+          "path": "CsiCoGen-Lite/outdoor/T200/normalization.npz",
+          "sha256": "7e02d1537ae0e4c5525f80119913db718e97f36036d6b494b3c9ce3bb7e31b82"
+        },
+        "config.yaml": {
+          "path": "CsiCoGen-Lite/outdoor/T200/config.yaml",
+          "sha256": "ecdc08726c90c1ebab294af0172278a0f44becd8d0300945ea6e19dd11268772"
+        }
+      }
+    }
+  },
+  "codebooks": {
+    "100": {
+      "path": "codebooks/T100_K256_seed42.pt",
+      "sha256": "d4736ce54973c89a62dc07357c9f9ef544aeca02429b590906257a5ac97cc741"
+    },
+    "200": {
+      "path": "codebooks/T200_K256_seed42.pt",
+      "sha256": "8142230a2bbd741c9727418cba041150672e9a3ff0d42f605a7089d4512d7f00"
+    }
+  },
+  "dataset_files": [
+    {
+      "file": "DATA_HtestFin_all.mat",
+      "bytes": 1234713165,
+      "sha256": "4971a6040f6086b44d9fa8e2173ac0a839a0411a44ec8a79ef843b7296d0f1da"
+    },
+    {
+      "file": "DATA_HtestFout_all.mat",
+      "bytes": 1233171880,
+      "sha256": "157c935b333701a429eea8430c19cd807fe9dd2cf0be7665cf3db7153d8a1012"
+    },
+    {
+      "file": "DATA_Htestin.mat",
+      "bytes": 285973959,
+      "sha256": "9740d1f57a03cb11b6d325aebb8f90fe175a5e7f80ef081817497931ce364c75"
+    },
+    {
+      "file": "DATA_Htestout.mat",
+      "bytes": 294782702,
+      "sha256": "581d69559862cc87301ece158442f4f14b9e38f57379d1a245e396aa0ac58c98"
+    },
+    {
+      "file": "DATA_Htrainin.mat",
+      "bytes": 1429768613,
+      "sha256": "db9d232fc347178c596653a8c0402956517353fbfa1d6d0eae8041cb3c95e2c2"
+    },
+    {
+      "file": "DATA_Htrainout.mat",
+      "bytes": 1473870791,
+      "sha256": "9f52eaed29ea8f8b9eeae2cf843093341a3d02c216430841cb1428bbdb660909"
+    },
+    {
+      "file": "DATA_Hvalin.mat",
+      "bytes": 428919585,
+      "sha256": "aee1fc970466c198d69eca745b1fd3545b729576da728b52391a62299a3e72ed"
+    },
+    {
+      "file": "DATA_Hvalout.mat",
+      "bytes": 442171698,
+      "sha256": "b0f18183749dde5b79654d1f1c611b11848b2e783d213ee2152499cba432c986"
+    }
+  ]
+}

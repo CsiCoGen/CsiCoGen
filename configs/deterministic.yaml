@@ -1,0 +1,2 @@
+# Fix cuDNN's algorithm selection for stricter same-device comparisons.
+DIFF_FAST_BENCHMARK: false
